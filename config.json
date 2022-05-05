@@ -1,0 +1,10 @@
+{
+  "project_id" : "nlp-masters-project",
+  "dataset_id" : "news_data",
+  "input_table_id" : "raw_news",
+  "output_table_id" : "ner_enriched",
+  "output_topic" : "news_raw_downloaded_topic",
+  "input_rows_limit" : 1,
+  "ner_service_url" : "https://ner-roberta-uca55u3kfq-ew.a.run.app/prediction",
+  "google_api_key_path" : "google.json"
+}

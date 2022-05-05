@@ -1,0 +1,6 @@
+marshmallow
+google-cloud-bigquery
+protobuf
+google-cloud-pubsub
+google-cloud-logging
+nltk
