@@ -5,6 +5,9 @@
   "output_table_id" : "ner_enriched",
   "output_topic" : "news_raw_downloaded_topic",
   "input_rows_limit" : 1,
-  "ner_service_url" : "https://ner-roberta-uca55u3kfq-ew.a.run.app/prediction",
-  "google_api_key_path" : "google.json"
+  "ner_service_url" : "https://ner-roberta-uca55u3kfq-ew.a.run.app/batch_prediction",
+  "google_api_key_path" : "google.json",
+  "sub_topic" : "news_raw_downloaded_topic",
+  "pub_topic" : "news_ner_enriched",
+  "execution_timeout" : 250
 }

@@ -12,6 +12,9 @@ class BaseConfig(Schema):
     input_rows_limit = fields.Int(required = True)
     ner_service_url = fields.Str(required=True)
     google_api_key_path = fields.Str(required=True)
+    sub_topic = fields.Str(required=True)
+    pub_topic = fields.Str(required=True)
+    execution_timeout = fields.Float(required=True)
 
     @post_load
     def make_config(self, data, **kwargs):
